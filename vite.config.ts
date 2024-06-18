@@ -9,10 +9,6 @@ import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig(({ command }) => ({
-  // define: {
-  //   process: {},
-  //   "process.env": {},
-  // },
   environments: {
     ssr: {
       build: {
@@ -34,8 +30,6 @@ export default defineConfig(({ command }) => ({
       },
       dev: {
         optimizeDeps: {
-          entries: ["app/**/*.ts", "app/**/*.tsx"],
-          holdUntilCrawlEnd: true,
           include: [
             "@remix-run/cloudflare",
             "cookie",

@@ -31,4 +31,3 @@ jobs:
           projectName: remix-vite-6
           directory: ./build/pages
           wranglerVersion: "3.61.0"
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}

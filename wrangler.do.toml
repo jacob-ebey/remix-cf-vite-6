@@ -1,4 +1,4 @@
-name = "remix-cf-vite-6-durable-objects"
+name = "remix-vite-6-durable-objects"
 compatibility_date = "2024-05-28"
 main = "./build/pages/_worker.js"
 

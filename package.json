@@ -4,7 +4,7 @@
   "type": "module",
   "license": "ISC",
   "scripts": {
-    "build": "remix vite:build && mv build/client build/pages && mv build/server/index.js build/pages/_worker.js",
+    "build": "remix vite:build",
     "dev": "remix vite:dev",
     "typecheck": "tsc"
   },

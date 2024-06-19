@@ -1,6 +1,6 @@
 name = "remix-vite-6"
 compatibility_date = "2024-05-28"
-pages_build_output_dir = "./dist/pages"
+pages_build_output_dir = "./build/client"
 
 [[durable_objects.bindings]]
 name = "COUNTER"

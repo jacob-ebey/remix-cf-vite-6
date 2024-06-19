@@ -21,7 +21,7 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 574fdb1eae7e80782a805c4b92f6b626
           wranglerVersion: "3.61.0"
-          command: deploy --config wrangler.do.toml build/pages/_worker.js
+          command: deploy --config wrangler.do.toml build/client/_worker.js/index.js
         if: ${{ github.ref == 'refs/heads/main' }}
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
